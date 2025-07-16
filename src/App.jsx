@@ -1,7 +1,13 @@
+import Banner from "./components/Banner/Banner";
+import Navbar from "./components/Navbar/Navbar";
+
 function App() {
   return (
     <>
-      <h3 className="">App.jsx</h3>
+      <header>
+        <Navbar></Navbar>
+        <Banner></Banner>
+      </header>
     </>
   );
 }
