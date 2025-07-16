@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "img": "https://i.ibb.co/Pz56XYcq/Virat-Kohli.png",
+    "name": "Virat Kohli",
+    "country": "India",
+    "player_status": "Batsman",
+    "left_or_right_hand": "Right-hand",
+    "hiring_price": 120000
+  },
+  {
+    "id": 2,
+    "img": "https://i.ibb.co/5XRpg5Jb/David.jpg",
+    "name": "David Warner",
+    "country": "Australia",
+    "player_status": "Batsman",
+    "left_or_right_hand": "Left-hand",
+    "hiring_price": 100000
+  },
+  {
+    "id": 3,
+    "img": "https://i.ibb.co/1f6Kbnvs/kane-williamson.webp",
+    "name": "Kane Williamson",
+    "country": "New Zealand",
+    "player_status": "Batsman",
+    "left_or_right_hand": "Right-hand",
+    "hiring_price": 95000
+  },
+  {
+    "id": 4,
+    "img": "https://i.ibb.co/r2VncVZ1/Ben-Stokes.jpg",
+    "name": "Ben Stokes",
+    "country": "England",
+    "player_status": "All-rounder",
+    "left_or_right_hand": "Left-hand",
+    "hiring_price": 110000
+  },
+  {
+    "id": 5,
+    "img": "https://i.ibb.co/mFyVvmdW/Shakib-Al-Hasan.png",
+    "name": "Shakib Al Hasan",
+    "country": "Bangladesh",
+    "player_status": "All-rounder",
+    "left_or_right_hand": "Left-hand",
+    "hiring_price": 98000
+  },
+  {
+    "id": 6,
+    "img": "https://i.ibb.co/DDsDnVSj/Babar-Azam.jpg",
+    "name": "Babar Azam",
+    "country": "Pakistan",
+    "player_status": "Batsman",
+    "left_or_right_hand": "Right-hand",
+    "hiring_price": 102000
+  },
+  {
+    "id": 7,
+    "img": "https://i.ibb.co/wZ2fmfd6/Rashed-Khan.png",
+    "name": "Rashid Khan",
+    "country": "Afghanistan",
+    "player_status": "Bowler",
+    "left_or_right_hand": "Right-hand",
+    "hiring_price": 85000
+  },
+  {
+    "id": 8,
+    "img": "https://i.ibb.co/7tZRR43M/Trent-Boult.png",
+    "name": "Trent Boult",
+    "country": "New Zealand",
+    "player_status": "Bowler",
+    "left_or_right_hand": "Left-hand",
+    "hiring_price": 87000
+  },
+  {
+    "id": 9,
+    "img": "https://i.ibb.co/tpKCmwm2/Jasprit-Bumrah.jpg",
+    "name": "Jasprit Bumrah",
+    "country": "India",
+    "player_status": "Bowler",
+    "left_or_right_hand": "Right-hand",
+    "hiring_price": 93000
+  },
+  {
+    "id": 10,
+    "img": "https://i.ibb.co/5zF7W7k/Glenn-Maxwell.jpg",
+    "name": "Glenn Maxwell",
+    "country": "Australia",
+    "player_status": "All-rounder",
+    "left_or_right_hand": "Right-hand",
+    "hiring_price": 97000
+  },
+  {
+    "id": 11,
+    "img": "https://i.ibb.co/fVj0tn4r/Quinton-de-Kock.png",
+    "name": "Quinton de Kock",
+    "country": "South Africa",
+    "player_status": "Wicket-keeper",
+    "left_or_right_hand": "Left-hand",
+    "hiring_price": 92000
+  },
+  {
+    "id": 12,
+    "img": "https://i.ibb.co/mFtkPp5j/Mohammad-Nabi.png",
+    "name": "Mohammad Nabi",
+    "country": "Afghanistan",
+    "player_status": "All-rounder",
+    "left_or_right_hand": "Right-hand",
+    "hiring_price": 86000
+  }
+]
