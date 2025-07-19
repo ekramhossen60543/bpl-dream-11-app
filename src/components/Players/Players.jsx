@@ -121,7 +121,7 @@ const Players = ({ handleHiringPrice, hiringPrice, generateCoins }) => {
             ))}
       </div>
       <div>
-        {selectedPlayers.length != 0 && (
+        {selectedPlayers.length != 0 && isActive.cart === false ? (
           <div className="mt-10">
             <button
               onClick={handlePlayersSection}
@@ -130,7 +130,7 @@ const Players = ({ handleHiringPrice, hiringPrice, generateCoins }) => {
               Add More Player
             </button>
           </div>
-        )}
+        ) : null}
       </div>
     </div>
   );

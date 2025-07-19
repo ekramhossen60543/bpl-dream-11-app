@@ -1,4 +1,5 @@
 import brandLogo from "../../assets/logo.png";
+import { GiTwoCoins } from "react-icons/gi";
 const Navbar = ({ generateCoins }) => {
   return (
     <div className="w-full flex flex-col md:flex-row items-center justify-between gap-10 md:gap-0 mt-12 mb-7 ">
@@ -21,7 +22,10 @@ const Navbar = ({ generateCoins }) => {
             <a href="#">Schedules</a>
           </li>
         </ul>
-        <button className="btn font-bold">{generateCoins} Coin 🪙</button>
+        <button className="btn font-bold">
+          {generateCoins} Coin{" "}
+          <GiTwoCoins className="text-yellow-500 text-3xl" />
+        </button>
       </div>
     </div>
   );
