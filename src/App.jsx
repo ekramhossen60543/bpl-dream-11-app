@@ -1,15 +1,44 @@
+import { useEffect, useState } from "react";
 import Banner from "./components/Banner/Banner";
 import Navbar from "./components/Navbar/Navbar";
+import Players from "./components/Players/Players";
 
 function App() {
+  const [hiringPrice, setHiringPrice] = useState(0);
+  const [generateCoins, setGenerateCoins] = useState(0);
+
+  const handleGenerateCoins = () => {
+    const totalCoins = generateCoins + 500000;
+    setGenerateCoins(totalCoins);
+  };
+
+  const handleHiringPrice = (price) => {
+    setHiringPrice(price);
+  };
+
+  useEffect(() => {
+    if (
+      generateCoins != 0 &&
+      hiringPrice != 0 &&
+      generateCoins >= hiringPrice
+    ) {
+      setGenerateCoins(generateCoins - hiringPrice);
+    }
+  }, [hiringPrice]);
   return (
     <>
-      <header>
-        <Navbar></Navbar>
-        <Banner></Banner>
+      <header className="w-11/12 mx-auto">
+        <Navbar generateCoins={generateCoins}></Navbar>
+        <Banner handleGenerateCoins={handleGenerateCoins}></Banner>
       </header>
+      <main className="w-11/12 mx-auto">
+        <Players
+          hiringPrice={hiringPrice}
+          generateCoins={generateCoins}
+          handleHiringPrice={handleHiringPrice}
+        ></Players>
+      </main>
     </>
   );
 }
-
 export default App;

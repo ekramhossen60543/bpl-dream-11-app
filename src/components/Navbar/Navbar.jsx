@@ -1,13 +1,13 @@
 import brandLogo from "../../assets/logo.png";
-const Navbar = () => {
+const Navbar = ({ generateCoins }) => {
   return (
-    <div className="w-10/12 mx-auto flex justify-between items-center font-sora mt-12 mb-7">
-      <div className="w-[100]">
+    <div className="w-full flex flex-col md:flex-row items-center justify-between gap-10 md:gap-0 mt-12 mb-7 ">
+      <div className="w-[100px]">
         <img className="w-full" src={brandLogo} alt="" />
       </div>
 
       <div className="flex items-center gap-5">
-        <ul className="flex items-center gap-5 text-gray-500 font-light">
+        <ul className="flex items-center gap-5 text-gray-500 font-medium">
           <li>
             <a href="#">Home</a>
           </li>
@@ -21,7 +21,7 @@ const Navbar = () => {
             <a href="#">Schedules</a>
           </li>
         </ul>
-        <button className="btn font-semibold">0 Coin 🪙</button>
+        <button className="btn font-bold">{generateCoins} Coin 🪙</button>
       </div>
     </div>
   );
