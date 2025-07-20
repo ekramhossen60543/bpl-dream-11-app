@@ -34,7 +34,7 @@ function App() {
         <Navbar generateCoins={generateCoins}></Navbar>
         <Banner handleGenerateCoins={handleGenerateCoins}></Banner>
       </header>
-      <main className="w-11/12 mx-auto bg-white">
+      <main className="w-11/12 mx-auto">
         <Players
           hiringPrice={hiringPrice}
           generateCoins={generateCoins}
