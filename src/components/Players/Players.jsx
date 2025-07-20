@@ -71,7 +71,7 @@ const Players = ({ handleHiringPrice, hiringPrice, generateCoins }) => {
     });
   };
   return (
-    <div className="w-full mt-20 mb-48" id="players-section">
+    <div className="w-full mt-20 mb-96" id="players-section">
       <div className="flex flex-col gap-5 sm:flex-row items-center justify-between">
         <h2 className="text-3xl font-bold">
           Available Players ({selectedPlayers.length}/6)
